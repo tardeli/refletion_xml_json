@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <ns2:Vereadores xmlns:ns2="br.com.tardeli.modelo">
     <vereador>
         <codigo>1</codigo>
@@ -201,7 +201,7 @@
     </vereador>
     <vereador>
         <codigo>11</codigo>
-        <nome>João Cardoso</nome>
+        <nome>Nome alterado - teste</nome>
         <dataAssociacao>2019-10-23T00:00:00-03:00</dataAssociacao>
         <desempenho>100.0</desempenho>
         <partido>

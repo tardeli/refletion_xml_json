@@ -9,7 +9,7 @@ import org.xml.sax.helpers.DefaultHandler;
 
 
 public class MyHandlerVereador extends DefaultHandler {
-	private List<Vereador> vereadors = new ArrayList<>();
+	private List<Vereador> vereadores = new ArrayList<>();
 	private Vereador vereador = null;
 	private StringBuffer valorAtual = new StringBuffer(100);
 	
@@ -37,12 +37,12 @@ public class MyHandlerVereador extends DefaultHandler {
 	}
 	
 	public void endElement(String uri, String localName, String tag){
-		if (tag.equalsIgnoreCase("codigo")) {
+		if (tag.equalsIgnoreCase("nome")) {
 			vereador.setNome(valorAtual.toString());
-			System.out.println("tag 1 " + tag + " " + valorAtual);	
+			System.out.println("tag 2 " + tag + " -" + valorAtual);	
 		}
 		if (tag.equalsIgnoreCase("nome")) {
-			vereadors.add(vereador);	
+			vereadores.add(vereador);	
 		}
 		valorAtual.delete(0, valorAtual.length());
 	}
@@ -52,11 +52,11 @@ public class MyHandlerVereador extends DefaultHandler {
     }
 
 	public List<Vereador> getVereadors() {
-		return vereadors;
+		return vereadores;
 	}
 
-	public void setVereadors(List<Vereador> vereadors) {
-		this.vereadors = vereadors;
+	public void setVereadors(List<Vereador> vereadores) {
+		this.vereadores = vereadores;
 	}  
 	
 }

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE vereadores SYSTEM "vereadores.dtd">
+<vereadores>
+    <vereador>
+        <codigo>1</codigo>
+        <nome>Tardeli da Rocha</nome>
+        <dataAssociacao>2019-10-22T00:00:00-03:00</dataAssociacao>
+        <desempenho>75.0</desempenho>
+        <partido>
+            <numero>15</numero>
+            <nome>PMDB</nome>
+        </partido>
+        <projetos>
+            <projeto>
+                <codigo>1</codigo>
+                <nome>Projeto-1</nome>
+                <aprovado>true</aprovado>
+                <apresentado>true</apresentado>
+            </projeto>
+            <projeto>
+                <codigo>4</codigo>
+                <nome>Projeto-4</nome>
+                <aprovado>true</aprovado>
+                <apresentado>true</apresentado>
+            </projeto>
+            <projeto>
+                <codigo>7</codigo>
+                <nome>Projeto-7</nome>
+                <aprovado>true</aprovado>
+                <apresentado>true</apresentado>
+            </projeto>
+            <projeto>
+                <codigo>10</codigo>
+                <nome>Projeto-10</nome>
+                <aprovado>false</aprovado>
+                <apresentado>true</apresentado>
+            </projeto>
+        </projetos>
+    </vereador>
+  
+</vereadores>

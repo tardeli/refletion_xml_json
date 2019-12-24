@@ -1,0 +1,14 @@
+<!ELEMENT vereadores (vereador*)>
+<!ELEMENT vereador (codigo, nome, dataAssociacao,desempenho, partido, projetos*)>
+<!ELEMENT partido (numero, nome)>
+<!ELEMENT projetos (projeto*) >
+<!ELEMENT projeto (codigo, nome, aprovado, apresentado)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT dataAssociacao (#PCDATA)>
+<!ELEMENT desempenho (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT aprovado (#PCDATA)>
+<!ELEMENT apresentado (#PCDATA)>
+
+
